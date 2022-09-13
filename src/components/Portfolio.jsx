@@ -16,7 +16,7 @@ const Portfolio = () => {
       src: synapse,
       title: "Synapse - Wechat MP",
       icon: <> <SiRubyonrails size={30} /> <DiJavascript1 size={20} /> </>,
-      demoLink: "https://roxanne-work1.netlify.app/",
+      demoLink: "https://synapse.roxannezhao.com",
       codeLink: "https://github.com/RoxanneZhao199/Synapse_frontend"
     },
     {
@@ -24,7 +24,7 @@ const Portfolio = () => {
       src: furryfun,
       title: "FurryFun - Wechat MP",
       icon: <> <SiRubyonrails size={30} /> <DiJavascript1 size={20} /> </>,
-      demoLink: "https://roxanne-work2.netlify.app",
+      demoLink: "https://furryfun.roxannezhao.com",
       codeLink: "https://github.com/SueLuoHang/Furryfunbackend"
     },
     {
@@ -32,7 +32,7 @@ const Portfolio = () => {
       src: mengcupcake,
       title: "Meng's Cupcake",
       icon: <SiReact size={25}/>,
-      demoLink: "https://mengcupcake.pages.dev/",
+      demoLink: "https://mengcupcake.roxannezhao.com",
       codeLink: "https://github.com/RoxanneZhao199/cake-store"
     },
     {
