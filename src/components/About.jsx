@@ -19,7 +19,7 @@ const About = () => {
 
         <p className='text-base text-gray-500'>
           I worked as a project engineer👷🏻‍♀️ in the manufacturing and construction industry for many years. It was by chance that my programming learning journey started in early 2021. I instantly fell in love with it both the idea of using logic on one hand and also being very creative on the other hand. I enjoy problem-solving and it gives me a sense of achievement.<br />
-          Changing careers midway is not an easy task. But I have the confidence and the faith in myself to get to where I want to be despite the industry or the people that I will be working with. Now I am a junior web developer👩🏻‍💻. I am passionate about building beautiful and functional web pages and mini-programs.For sure there are still a lot of unknowns, but that’s what excites me and motivates me to be a better developer in the future.✌🏻
+          Changing careers midway is not an easy task. But I have the confidence and the faith in myself to get to where I want to be despite the industry or the people that I will be working with. Now I am a junior web developer👩🏻‍💻. I am passionate about building beautiful and functional web pages and mini-programs. For sure there are still a lot of unknowns, but that’s what excites me and motivates me to be a better developer in the future.✌🏻
         </p>
       </div>
     </div>

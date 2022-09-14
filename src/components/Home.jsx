@@ -14,7 +14,7 @@ const Home = () => {
             <span className='text-2xl ml-2'>🖐🏻</span>
           </h2>
           <h2 className='text-xl sm:text-2xl font-bold text-[#E1DFDF]'>
-            Front-end Developer
+            Full-stack Developer
           </h2>
           <p className='text-gray-500 py-2 max-w-md text-base'>
             I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Current, I'm focused on building responsive full-stack web application and mini programs.
