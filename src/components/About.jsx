@@ -6,22 +6,20 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-black text-[#E1DFDF]'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
+          <p className='text-3xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <div className='about__img mt-1 flex justify-center items-center'>
           <img src={profileImg} alt="" />
         </div>
-        <p className='text-xl mt-6 font-bold flex justify-center items-center'>
+        <p className='text-lg mt-2 font-bold flex justify-center items-center'>
           Front-end Developer | Full-stack Developer | Freelancer
         </p>
 
         <br />
 
-        <p className='text-xl'>
-          I am a junior web developer with a passion for building beautiful and functional web pages and mini-programs. I am also a lifelong learner
-          and I love exploring new technologies. Matcha and durian are my favourites, and I hope I can explore South America soon.🦙
-
-          I am passionate about building software that improves the lives of those around me.
+        <p className='text-base text-gray-500'>
+          I worked as a project engineer👷🏻‍♀️ in the manufacturing and construction industry for many years. It was by chance that my programming learning journey started in early 2021. I instantly fell in love with it both the idea of using logic on one hand and also being very creative on the other hand. I enjoy problem-solving and it gives me a sense of achievement.<br />
+          Changing careers midway is not an easy task. But I have the confidence and the faith in myself to get to where I want to be despite the industry or the people that I will be working with. Now I am a junior web developer👩🏻‍💻. I am passionate about building beautiful and functional web pages and mini-programs.For sure there are still a lot of unknowns, but that’s what excites me and motivates me to be a better developer in the future.✌🏻
         </p>
       </div>
     </div>

@@ -49,8 +49,8 @@ const Portfolio = () => {
     <div name='portfolio' className='bg-gradient-to-b from-black via-black to-gray-800 w-full text-[#E1DFDF] md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-          <p className='py-4'>Check out some of my recent work</p>
+          <p className='text-3xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+          <p className='py-2'>Check out some of my recent work</p>
         </div>
 
         <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-8'>

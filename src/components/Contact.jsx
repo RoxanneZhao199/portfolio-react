@@ -5,8 +5,8 @@ const Contact = () => {
     <div name='contact' className='w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 p-4 text-[#E1DFDF]'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold border-b-4 inline border-gray-500'>Contact</p>
-          <p className='py-4'>Submit the form below to get in touch with me</p>
+          <p className='text-3xl font-bold border-b-4 inline border-gray-500'>Contact</p>
+          <p className='py-2'>Submit the form below to get in touch with me</p>
         </div>
 
         <div className='flex justify-center items-center'>
