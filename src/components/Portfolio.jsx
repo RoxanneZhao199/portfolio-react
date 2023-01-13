@@ -68,7 +68,7 @@ const Portfolio = () => {
                   <a href={demoLink} target='_blank' rel="noreferrer">
                     <button className='text-center rounded-md px-4 py-2 m-2 bg-[#E1DFDF] text-gray-700 font-bold text-lg duration-200 hover:scale-105'>Demo</button>
                   </a>
-                  <a href={codeLink} src='_blank'>
+                  <a href={codeLink} target='_blank' rel="noreferrer">
                     <button className='text-center rounded-md px-4 py-2 m-2 bg-[#E1DFDF] text-gray-700 font-bold text-lg duration-200 hover:scale-105'>Code</button>
                   </a>
 
