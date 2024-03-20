@@ -1,9 +1,10 @@
 import React from 'react'
-import dogWalk from '../assets/dogWalk1.gif'
+import dogWalk1 from '../assets/dogWalk1.gif'
+import dogWalk from '../assets/dogWalk.gif'
 import { TbArrowRightTail } from 'react-icons/tb'
 import { Link } from 'react-scroll'
 
-const Home = () => {
+const Home = (theme) => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-900'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
@@ -29,7 +30,9 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={dogWalk} alt="my profile" className='rounded-3xl mx-auto w-2/3 md:w-full'/>
+          <img
+            src={ theme === 'light-theme' ? dogWalk : dogWalk1}
+            alt="my profile" className='rounded-3xl mx-auto w-2/3 md:w-full'/>
         </div>
       </div>
     </div>

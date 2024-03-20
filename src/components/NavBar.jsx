@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
+import { BsMoonStars } from "react-icons/bs"
+import { FiSun } from "react-icons/fi"
 import { Link } from 'react-scroll'
 
-const NavBar = () => {
+const NavBar = (theme, toggleTheme) => {
   const [nav, setNav] = useState(false)
 
   const links = [
@@ -45,6 +47,25 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
+
+        {/* =====================light mode ========================== */}
+        <div className='light__mode px-8'>
+          <span onClick={toggleTheme}>
+            {
+              theme === 'light-theme' ? (
+                <span>
+                  <BsMoonStars size={22} />
+                </span>
+              ) : (
+                <span>
+                  <FiSun size={25} />
+                </span>
+              )
+            }
+          </span>
+        </div>
+
+
       </ul>
 
       <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
@@ -70,6 +91,8 @@ const NavBar = () => {
           ))}
         </ul>
       )}
+
+
     </div>
   )
 }
