@@ -18,7 +18,7 @@ const Home = (theme) => {
             Full-stack Developer
           </h2>
           <p className='text-gray-500 py-2 max-w-md text-base'>
-            I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Current, I'm focused on building responsive full-stack web application and mini programs.
+            I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full-stack web applications and mini programs.
           </p>
           <div>
             <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-2 my-3 flex items-center rounded-md bg-gradient-to-r from-yellow-500 to-orange-500 cursor-pointer'>
